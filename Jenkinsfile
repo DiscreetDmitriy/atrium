@@ -6,9 +6,9 @@ pipeline {
         git(url: 'https://github.com/DiscreetDmitriy/atrium', branch: 'master')
       }
     }
-    stage('') {
+    stage('error') {
       steps {
-        sh './gradlew'
+        sh './gr'
       }
     }
   }
